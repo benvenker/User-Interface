@@ -131,6 +131,8 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html,
@@ -152,37 +154,45 @@ h5 {
 /* Your code starts here! */
 .container {
   margin: 0 50px 0 50px;
-  /* width: 960px; */
+  width: 960px;
 }
 
 .nav {
-  text-align: justify;
-  margin: 0;
+  text-align: center;
   padding: 0;
+  color: lightgray;
+  width: 100%;
 }
 .nav li {
   display: inline-block;
   padding: 20px;
+  margin: 0 1%;
+}
+
+.logo {
+  text-align: right;
 }
 
 .hero {
   margin: 100px 0 50px 0;
-  text-align: justify;
+  text-align: center;
 }
 
 .hero li {
   display: inline-block;
-  text-align: justify;
+  text-align: center;
 }
 
-.tagline {
-  padding-right: 50px;
+.code-snippet {
+  margin-left: 150px;
 }
 
 .tagline h1 {
   font-size: 70px;
-  margin-right: 200px;
-  text-align: center;
+  /* margin-right: 200px; */
+  /* margin-top: -150px; */
+  /* margin-left: 50px; */
+  /* text-align: center; */
   width: 250px;
 }
 
@@ -190,13 +200,28 @@ h5 {
   margin: 0;
   /* position: absolute; */
   top: 50%;
-  transform: translateY(-50%);
-  margin-right: 50px;
+  /* transform: translateY(-50%); */
+  /* margin-right: 50px; */
   width: 200px;
+  /* text-align: center; */
+}
+
+button {
+  /* font-family: Lato; */
+  border: 1px solid black;
+  background-color: white;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  width: 200px;
+  height: 35px;
+  margin-left: 30px;
 }
 
 .features {
   text-align: justify;
+  max-width: 100%;
+  margin: auto;
 }
 .features li {
   display: inline-block;
@@ -204,40 +229,33 @@ h5 {
 }
 
 .features p {
-  width: 400px;
+  width: 450px;
+}
+
+hr {
+  max-width: 100%;
+  margin: 50px 0;
 }
 
 .services {
-  text-align: justify;
-  margin: 10px;
-  padding: 10px;
+  /* text-align: justify; */
+  margin: auto;
+
+  /* margin: 10px;
+  padding: 10px; */
 }
 .services li {
   display: inline-block;
   position: relative;
-}
-
-.services p {
-  width: 250px;
-}
-
-button {
-  font-family: Lato;
-  border: 1px solid black;
-  background-color: white;
-  padding: 10px;
-  font-size: 18px;
-  text-align: center;
-  width: 200px;
-  height: 40px;
+  width: 33%;
 }
 
 /* .middle-image {
-  text-align: center;
+  text-align: centerß;
 } */
 
 .middle-img {
-  max-width: 100%;
+  width: 960px;
   max-height: 100%;
   margin: 20px 0 20px 0;
 }
@@ -246,6 +264,11 @@ button {
   display: inline-block;
 }
 
-.section {
-  width: auto;
+address li {
+  margin: 10px 0 10px 0;
+}
+
+.copyright {
+  text-align: center;
+  margin: 50px;
 }
