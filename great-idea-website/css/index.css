@@ -152,11 +152,11 @@ h5 {
 /* Your code starts here! */
 .container {
   margin: 0 50px 0 50px;
-  width: 100%;
+  /* width: 960px; */
 }
 
 .nav {
-  text-align: center;
+  text-align: justify;
   margin: 0;
   padding: 0;
 }
@@ -167,11 +167,12 @@ h5 {
 
 .hero {
   margin: 100px 0 50px 0;
-  text-align: center;
+  text-align: justify;
 }
 
 .hero li {
   display: inline-block;
+  text-align: justify;
 }
 
 .tagline {
@@ -182,6 +183,7 @@ h5 {
   font-size: 70px;
   margin-right: 200px;
   text-align: center;
+  width: 250px;
 }
 
 .tagline {
@@ -193,11 +195,29 @@ h5 {
   width: 200px;
 }
 
+.features {
+  text-align: justify;
+}
 .features li {
   display: inline-block;
+  padding: 10px;
 }
 
-p {
+.features p {
+  width: 400px;
+}
+
+.services {
+  text-align: justify;
+  margin: 10px;
+  padding: 10px;
+}
+.services li {
+  display: inline-block;
+  position: relative;
+}
+
+.services p {
   width: 250px;
 }
 
@@ -212,8 +232,14 @@ button {
   height: 40px;
 }
 
-.middle-image {
+/* .middle-image {
   text-align: center;
+} */
+
+.middle-img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 20px 0 20px 0;
 }
 
 .services li {
