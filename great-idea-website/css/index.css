@@ -150,21 +150,55 @@ h5 {
 }
 
 /* Your code starts here! */
-nav ul li {
-  display: inline-block;
-  margin: 50px 50px 50px 50px;
+.container {
+  margin: 0 50px 0 50px;
+  width: 100%;
 }
 
-.hero ul li {
+.nav {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.nav li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.hero {
+  margin: 100px 0 50px 0;
+  text-align: center;
+}
+
+.hero li {
   display: inline-block;
 }
 
-h1 {
-  font-size: 50px;
+.tagline {
+  padding-right: 50px;
 }
 
-.features-about ul {
+.tagline h1 {
+  font-size: 70px;
+  margin-right: 200px;
+  text-align: center;
+}
+
+.tagline {
+  margin: 0;
+  /* position: absolute; */
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 50px;
+  width: 200px;
+}
+
+.features li {
   display: inline-block;
+}
+
+p {
+  width: 250px;
 }
 
 button {
@@ -174,12 +208,18 @@ button {
   padding: 10px;
   font-size: 18px;
   text-align: center;
+  width: 200px;
+  height: 40px;
 }
 
 .middle-image {
   text-align: center;
 }
 
-.panels {
+.services li {
   display: inline-block;
+}
+
+.section {
+  width: auto;
 }
