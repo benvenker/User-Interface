@@ -172,6 +172,15 @@ h5 {
   color: lightgray;
 }
 
+a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+a:hover {
+  color: white;
+}
+
 .logo {
   text-align: right;
   margin-left: 100px;
