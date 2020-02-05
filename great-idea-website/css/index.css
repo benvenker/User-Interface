@@ -154,11 +154,16 @@ h5 {
 /* Your code starts here! */
 .container {
   width: 850px;
-  margin: 20px 100px;
+  margin: 100px 100px;
 }
 
 .nav {
   text-align: left;
+  /* overflow: hidden; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
 }
 
 .nav li {
