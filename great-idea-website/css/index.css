@@ -159,7 +159,6 @@ h5 {
 
 .nav {
   text-align: left;
-  /* overflow: hidden; */
   position: fixed;
   top: 0;
   width: 100%;
@@ -220,7 +219,6 @@ button {
 
 .features p {
   margin: 10px 0 40px 0;
-  max-width: 400px;
 }
 
 .first {
